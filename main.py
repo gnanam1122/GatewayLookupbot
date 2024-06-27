@@ -14,13 +14,13 @@ import urllib.parse
 from bs4 import BeautifulSoup
 from collections import defaultdict
 from datetime import datetime, timedelta
-api_id = 'API_ID_HERE' # Keep this as it is 
-api_hash = 'API_HASH_HERE' # same heree
-client_token = 'BOT_TOKEN_HERE'
+api_id = '21249702' # Keep this as it is 
+api_hash = '40e6d84b8f84e0a620dbf350ea505d4b' # same heree
+client_token = '7021907237:AAHKeaPWJFJw72P4F2dBxQd9hTk0LCID3TM'
 
 #coded by @AnukarOP 
 
-admin_ids = [ADMIN_ID_1, ADMIN_ID_2, ADMIN_ID_3]  # Example admin IDs
+admin_ids = [6673309665, 6673309665, 6673309665]  # Example admin IDs
 
 def is_user_admin(user_id):
     return user_id in admin_ids
@@ -35,7 +35,7 @@ credits = {}
 global credit
 credit = {}
 generated_codes = []
-vip = [VIP_ID_1,VIP_ID_2,VIP_ID_3]
+vip = [6673309665,6673309665,6673309665]
 def normalize_url(url):
     parsed_url = urllib.parse.urlparse(url)
     normalized_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
