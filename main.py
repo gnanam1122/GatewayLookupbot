@@ -20,7 +20,7 @@ client_token = '7021907237:AAHKeaPWJFJw72P4F2dBxQd9hTk0LCID3TM'
 
 #coded by @AnukarOP 
 
-admin_ids = [6673309665, 6673309665, 6673309665]  # Example admin IDs
+admin_ids = [6673309665, 6102672721, 6673309665]  # Example admin IDs
 
 def is_user_admin(user_id):
     return user_id in admin_ids
@@ -35,7 +35,7 @@ credits = {}
 global credit
 credit = {}
 generated_codes = []
-vip = [6673309665,6673309665,6673309665]
+vip = [6673309665,6102672721,6673309665]
 def normalize_url(url):
     parsed_url = urllib.parse.urlparse(url)
     normalized_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
